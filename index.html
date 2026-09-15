@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - HTML & HTML5</title>
+</head>
+<body>
+    <!-- 
+        cú pháp của thẻ HTML : 
+        <tên_thẻ> Nội dung của thẻ </tên_thẻ>
+        - Tên thẻ gần với ngôn ngữ tự nhiên , mỗi một thẻ
+         sẽ có mục đích sử dụng khác nhau
+     -->
+     <h1>1 . Thẻ định dạng văn bản</h1>
+     <h2>1.1. Thẻ hiển thị văn bản </h2>
+     <p>Paragraph - đoạn văn bản</p>
+     <!-- h1-> h6 
+           h- Hesder( tiêu đề ) font-size lớn, in đậm
+        -->
+        <p>Bold: <b>In đậm </b></p>
+        <p>Italic: <i>In Nghiêng </i></p>
+        <p>Underline: <u>Gạch chân</u></p>
+        <p>Break ( xuông dòng) <br> trong đoạn văn bản </p>
+        <!-- 
+            cú pháp thẻ html dạng tông quát
+            <tên_thẻ thuộc_tính>
+             Nội dung của thẻ
+             </tên thẻ>
+         -->
+         <font color="red" size="7">học html </font>
+         <!-- Horizoltal line (Gạch ngang) -->
+         <hr/>
+         <hr size="10px" width="300px" color="red" align="right">
+         <hr size="10px" width="300px" color="red" align="left">
+         <hr size="10px" width="300px" color="red" align="center">
+         <p>Đường kẻ ngang</p>
+         <big>Hiển thị đoạn văn bane lớn hơn so với mặc định</big>
+         <small>Hiển thị đoạn văn bản nhỏ hơn so với mặc định</small>
+         <p>pi * R<sup>2</sup></p>
+         <p>H <sub>2</sub>0</p>
+         <em>Nghiêng</em>
+         <strong>In đậm</strong>
+         <H2>1.2. Thẻ tạo danh sách</H2>
+         <h3>1.2.1. danh sách không sắp xếp</h3>
+        <ul><!-- ul - unordered list -->
+            <h4>List friend: </h4>
+            <li> Đinh Công Tuấn Anh</li>              
+            <li> Bàn Anh Tuấn </li>
+            <li> Phan Huy Hoàng </li>
+            <li> Đào Duy Anh </li>
+         </ul>
+         <h3>1.2.2. danh sách sắp xếp </h3>
+         <h4>Girlfriend: </h4>
+         <ol><!-- ol - Ordered list -->
+        <li> Tuấn Anh </li>
+        <li> Huy Hoàng  </li>
+        <li> Duy Anh </li>
+        <li> B.Tuấn Anh  </li>
+        <ol>
+           <li>Tuấn Anh</li>
+           <li>Tuấn Anh</li>
+           <li>Tuấn Anh</li>
+         </ol>
+         <h1>2. Thẻ liên kết(thẻ Link)</h1>
+         <!-- Hỗ trợ liên kết đến môt tài nguyên khác
+             thông qua link (Đường dẫn) : 
+            -Đường dẫn tuyệt đối
+            -Đường dẫn tương đối
+            -->
+            <a href="About.html">
+                About Page - Tuyệt đối
+            </a>
+            <a href="./index.html">
+              About page - tương đối  
+            </a>
+            <a href="https://www.google.com/?hl=vi">Go to google
+            </a>
+            <a href="mailto:dinhcongtuananh3101@gmail.com">send mail</a>
+            <a href="tel:+843980024212">call 0398002421</a>
+            <h1>3. Các thẻ đa phương tiện</h1>
+            <h2>3.1. Hình ảnh</h2>
+            <!-- src source tài nguyên -->
+            <img
+            width="400px" 
+            src="./assets/images/Logo_DAI_NAM.png" 
+            alt="Doạnd text hiển thị khi lỗi ảnh">
+            <object data="./assets/audio/music.mp3" type=""></object>
+        </body>
+        </html>
